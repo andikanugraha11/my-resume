@@ -377,6 +377,14 @@ input[type="submit"]:focus {
   z-index: 1;
 }
 
+
+.header-photo-img {
+  max-width: 100%;
+  background-color: #fff;
+  border: 3px solid #fff;
+  border-radius: 300px;
+}
+
 .header-photo img {
   max-width: 100%;
   background-color: #fff;
