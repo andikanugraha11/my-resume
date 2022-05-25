@@ -57,13 +57,13 @@ export default function Home() {
       </ul>
       <div className="social-links">
         <ul>
-          <li><a href="https://www.linkedin.com/in/andika-nugraha-256049102" target="_blank"><i className="fab fa-linkedin-in" /></a></li>
-          <li><a href="https://github.com/andikanugraha11" target="_blank"><i className="fab fa-github" /></a></li>
-          <li><a href="https://github.com/andikanugr" target="_blank"><i className="fab fa-github" /></a></li>
+          <li><a href="https://www.linkedin.com/in/andika-nugraha-256049102" target="_blank" rel="noreferrer"><i className="fab fa-linkedin-in" /></a></li>
+          <li><a href="https://github.com/andikanugraha11" target="_blank" rel="noreferrer"><i className="fab fa-github" /></a></li>
+          <li><a href="https://github.com/andikanugr" target="_blank" rel="noreferrer"><i className="fab fa-github" /></a></li>
         </ul>
       </div>
       <div className="header-buttons">
-        <a href="#" target="_blank" className="btn btn-primary">Download CV</a>
+        <a href="#" target="_blank" rel="noreferrer" className="btn btn-primary">Download CV</a>
       </div>
       <div className="copyrights">© 2020 All rights reserved.</div>
     </header>
@@ -280,37 +280,37 @@ export default function Home() {
               <div className="col-xs-12 col-sm-12">
                 <div className="clients owl-carousel">
                   <div className="client-block">
-                    <a href="#" target="_blank" title="Logo">
+                    <a href="#" target="_blank" rel="noreferrer" title="Logo">
                       <Image src="/static/img/clients/client-1.png" layout='fill' alt="Logo" />
                     </a>
                   </div>
                   <div className="client-block">
-                    <a href="#" target="_blank" title="Logo">
+                    <a href="#" target="_blank" rel="noreferrer" title="Logo">
                       <Image src="/static/img/clients/client-2.png" layout='fill' alt="Logo" />
                     </a>
                   </div>
                   <div className="client-block">
-                    <a href="#" target="_blank" title="Logo">
+                    <a href="#" target="_blank" rel="noreferrer" title="Logo">
                       <Image src="/static/img/clients/client-3.png" layout='fill' alt="Logo" />
                     </a>
                   </div>
                   <div className="client-block">
-                    <a href="#" target="_blank" title="Logo">
+                    <a href="#" target="_blank" rel="noreferrer" title="Logo">
                       <Image src="/static/img/clients/client-4.png" layout='fill' alt="Logo" />
                     </a>
                   </div>
                   <div className="client-block">
-                    <a href="#" target="_blank" title="Logo">
+                    <a href="#" target="_blank" rel="noreferrer" title="Logo">
                       <Image src="/static/img/clients/client-5.png" layout='fill' alt="Logo" />
                     </a>
                   </div>
                   <div className="client-block">
-                    <a href="#" target="_blank" title="Logo">
+                    <a href="#" target="_blank" rel="noreferrer" title="Logo">
                       <Image src="/static/img/clients/client-6.png" layout='fill' alt="Logo" />
                     </a>
                   </div>
                   <div className="client-block">
-                    <a href="#" target="_blank" title="Logo">
+                    <a href="#" target="_blank" rel="noreferrer" title="Logo">
                       <Image src="/static/img/clients/client-7.png" layout='fill' alt="Logo" />
                     </a>
                   </div>
