@@ -8,7 +8,7 @@ export default function Home() {
     <header id="site_header" className="header mobile-menu-hide">
       <div className="header-content">
         <div className="header-photo">
-          <img src="img/main_photo.jpg" alt="Andika Nugraha" />
+          <img src="static/img/main_photo.jpg" alt="Andika Nugraha" />
         </div>
         <div className="header-titles">
           <h2>Andika Nugraha</h2>
@@ -55,9 +55,9 @@ export default function Home() {
       </ul>
       <div className="social-links">
         <ul>
-          <li><a href="#" target="_blank"><i className="fab fa-linkedin-in" /></a></li>
-          <li><a href="#" target="_blank"><i className="fab fa-facebook-f" /></a></li>
-          <li><a href="#" target="_blank"><i className="fab fa-twitter" /></a></li>
+          <li><a href="https://www.linkedin.com/in/andika-nugraha-256049102" target="_blank"><i className="fab fa-linkedin-in" /></a></li>
+          <li><a href="https://github.com/andikanugraha11" target="_blank"><i className="fab fa-github" /></a></li>
+          <li><a href="https://github.com/andikanugr" target="_blank"><i className="fab fa-github" /></a></li>
         </ul>
       </div>
       <div className="header-buttons">
@@ -213,7 +213,7 @@ export default function Home() {
                   {/* Testimonial 1 */}
                   <div className="testimonial">
                     <div className="img">
-                      <img src="img/testimonials/testimonial-1.jpg" alt="Andika Nugraha" />
+                      <img src="static/img/testimonials/testimonial-1.jpg" alt="Andika Nugraha" />
                     </div>
                     <div className="text">
                       <p>Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor. Nulla condimentum nunc sit amet urna tempus finibus. Duis mollis leo id ligula pellentesque, at vehicula dui ultrices.</p>
@@ -230,7 +230,7 @@ export default function Home() {
                   {/* Testimonial 2 */}
                   <div className="testimonial">
                     <div className="img">
-                      <img src="img/testimonials/testimonial-2.jpg" alt="Andika Nugraha" />
+                      <img src="static/img/testimonials/testimonial-2.jpg" alt="Andika Nugraha" />
                     </div>
                     <div className="text">
                       <p>Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor. Nulla condimentum nunc sit amet urna tempus finibus. Duis mollis leo id ligula pellentesque, at vehicula dui ultrices.</p>
@@ -247,7 +247,7 @@ export default function Home() {
                   {/* Testimonial 3 */}
                   <div className="testimonial">
                     <div className="img">
-                      <img src="img/testimonials/testimonial-3.jpg" alt="Andika Nugraha" />
+                      <img src="static/img/testimonials/testimonial-3.jpg" alt="Andika Nugraha" />
                     </div>
                     <div className="text">
                       <p>Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor. Nulla condimentum nunc sit amet urna tempus finibus. Duis mollis leo id ligula pellentesque, at vehicula dui ultrices.</p>
@@ -279,37 +279,37 @@ export default function Home() {
                 <div className="clients owl-carousel">
                   <div className="client-block">
                     <a href="#" target="_blank" title="Logo">
-                      <img src="img/clients/client-1.png" alt="Logo" />
+                      <img src="static/img/clients/client-1.png" alt="Logo" />
                     </a>
                   </div>
                   <div className="client-block">
                     <a href="#" target="_blank" title="Logo">
-                      <img src="img/clients/client-2.png" alt="Logo" />
+                      <img src="static/img/clients/client-2.png" alt="Logo" />
                     </a>
                   </div>
                   <div className="client-block">
                     <a href="#" target="_blank" title="Logo">
-                      <img src="img/clients/client-3.png" alt="Logo" />
+                      <img src="static/img/clients/client-3.png" alt="Logo" />
                     </a>
                   </div>
                   <div className="client-block">
                     <a href="#" target="_blank" title="Logo">
-                      <img src="img/clients/client-4.png" alt="Logo" />
+                      <img src="static/img/clients/client-4.png" alt="Logo" />
                     </a>
                   </div>
                   <div className="client-block">
                     <a href="#" target="_blank" title="Logo">
-                      <img src="img/clients/client-5.png" alt="Logo" />
+                      <img src="static/img/clients/client-5.png" alt="Logo" />
                     </a>
                   </div>
                   <div className="client-block">
                     <a href="#" target="_blank" title="Logo">
-                      <img src="img/clients/client-6.png" alt="Logo" />
+                      <img src="static/img/clients/client-6.png" alt="Logo" />
                     </a>
                   </div>
                   <div className="client-block">
                     <a href="#" target="_blank" title="Logo">
-                      <img src="img/clients/client-7.png" alt="Logo" />
+                      <img src="static/img/clients/client-7.png" alt="Logo" />
                     </a>
                   </div>
                 </div>
@@ -614,7 +614,7 @@ export default function Home() {
               <div className="col-xs-12 col-sm-6">
                 <div className="certificate-item clearfix">
                   <div className="certi-logo">
-                    <img src="img/clients/client-1.png" alt="logo" />
+                    <img src="static/img/clients/client-1.png" alt="logo" />
                   </div>
                   <div className="certi-content">
                     <div className="certi-title">
@@ -637,7 +637,7 @@ export default function Home() {
               <div className="col-xs-12 col-sm-6">
                 <div className="certificate-item clearfix">
                   <div className="certi-logo">
-                    <img src="img/clients/client-1.png" alt="logo" />
+                    <img src="static/img/clients/client-1.png" alt="logo" />
                   </div>
                   <div className="certi-content">
                     <div className="certi-title">
@@ -695,7 +695,7 @@ export default function Home() {
                   <div className="portfolio-grid three-columns">
                     <figure className="item lbaudio" data-groups="[&quot;category_all&quot;, &quot;category_soundcloud&quot;]">
                       <div className="portfolio-item-img">
-                        <img src="img/portfolio/1.jpg" alt="SoundCloud Audio" title />
+                        <img src="static/img/portfolio/1.jpg" alt="SoundCloud Audio" title />
                         <a href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/221650664&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" className="lightbox mfp-iframe" title="SoundCloud Audio" />
                       </div>
                       <i className="fa fa-volume-up" />
@@ -704,7 +704,7 @@ export default function Home() {
                     </figure>
                     <figure className="item standard" data-groups="[&quot;category_all&quot;, &quot;category_detailed&quot;]">
                       <div className="portfolio-item-img">
-                        <img src="img/portfolio/2.jpg" alt="Media Project 2" title />
+                        <img src="static/img/portfolio/2.jpg" alt="Media Project 2" title />
                         <a href="portfolio-1.html" className="ajax-page-load" />
                       </div>
                       <i className="far fa-file-alt" />
@@ -713,7 +713,7 @@ export default function Home() {
                     </figure>
                     <figure className="item lbvideo" data-groups="[&quot;category_all&quot;, &quot;category_vimeo-videos&quot;]">
                       <div className="portfolio-item-img">
-                        <img src="img/portfolio/3.jpg" alt="Vimeo Video 1" title />
+                        <img src="static/img/portfolio/3.jpg" alt="Vimeo Video 1" title />
                         <a href="https://player.vimeo.com/video/158284739" className="lightbox mfp-iframe" title="Vimeo Video 1" />
                       </div>
                       <i className="fas fa-video" />
@@ -722,7 +722,7 @@ export default function Home() {
                     </figure>
                     <figure className="item standard" data-groups="[&quot;category_all&quot;, &quot;category_detailed&quot;]">
                       <div className="portfolio-item-img">
-                        <img src="img/portfolio/4.jpg" alt="Media Project 1" title />
+                        <img src="static/img/portfolio/4.jpg" alt="Media Project 1" title />
                         <a href="portfolio-1.html" className="ajax-page-load" />
                       </div>
                       <i className="far fa-file-alt" />
@@ -731,8 +731,8 @@ export default function Home() {
                     </figure>
                     <figure className="item lbimage" data-groups="[&quot;category_all&quot;, &quot;category_mockups&quot;]">
                       <div className="portfolio-item-img">
-                        <img src="img/portfolio/5.jpg" alt="Mockup Design 1" title />
-                        <a className="lightbox" title="Mockup Design 1" href="img/portfolio/full/5.jpg" />
+                        <img src="static/img/portfolio/5.jpg" alt="Mockup Design 1" title />
+                        <a className="lightbox" title="Mockup Design 1" href="static/img/portfolio/full/5.jpg" />
                       </div>
                       <i className="far fa-image" />
                       <h4 className="name">Mockup Design 1</h4>
@@ -740,7 +740,7 @@ export default function Home() {
                     </figure>
                     <figure className="item lbvideo" data-groups="[&quot;category_all&quot;, &quot;category_youtube-videos&quot;]">
                       <div className="portfolio-item-img">
-                        <img src="img/portfolio/6.jpg" alt="YouTube Video 1" title />
+                        <img src="static/img/portfolio/6.jpg" alt="YouTube Video 1" title />
                         <a href="https://www.youtube.com/embed/bg0gv2YpIok" className="lightbox mfp-iframe" title="YouTube Video 1" />
                       </div>
                       <i className="fas fa-video" />
@@ -772,7 +772,7 @@ export default function Home() {
                           <a href="#" title="View all posts in Design">Design</a>
                         </div>
                         <a href="blog-post-1.html">
-                          <img src="img/blog/blog_post_1.jpg" className="size-blog-masonry-image-two-c" alt="Why I Switched to Sketch For UI Design" title />
+                          <img src="static/img/blog/blog_post_1.jpg" className="size-blog-masonry-image-two-c" alt="Why I Switched to Sketch For UI Design" title />
                           <div className="mask" />
                         </a>
                       </div>
@@ -793,7 +793,7 @@ export default function Home() {
                           <a href="#" title="View all posts in UI">UI</a>
                         </div>
                         <a href="blog-post-1.html">
-                          <img src="img/blog/blog_post_2.jpg" className="size-blog-masonry-image-two-c" alt="Best Practices for Animated Progress Indicators" title />
+                          <img src="static/img/blog/blog_post_2.jpg" className="size-blog-masonry-image-two-c" alt="Best Practices for Animated Progress Indicators" title />
                           <div className="mask" />
                         </a>
                       </div>
@@ -814,7 +814,7 @@ export default function Home() {
                           <a href="#" title="View all posts in Design">Design</a>
                         </div>
                         <a href="blog-post-1.html">
-                          <img src="img/blog/blog_post_3.jpg" className="size-blog-masonry-image-two-c" alt="Designing the Perfect Feature Comparison Table" title />
+                          <img src="static/img/blog/blog_post_3.jpg" className="size-blog-masonry-image-two-c" alt="Designing the Perfect Feature Comparison Table" title />
                           <div className="mask" />
                         </a>
                       </div>
@@ -835,7 +835,7 @@ export default function Home() {
                           <a href="#" title="View all posts in E-Commerce">UI</a>
                         </div>
                         <a href="blog-post-1.html">
-                          <img src="img/blog/blog_post_4.jpg" className="size-blog-masonry-image-two-c" alt="An Overview of E-Commerce Platforms" title />
+                          <img src="static/img/blog/blog_post_4.jpg" className="size-blog-masonry-image-two-c" alt="An Overview of E-Commerce Platforms" title />
                           <div className="mask" />
                         </a>
                       </div>
